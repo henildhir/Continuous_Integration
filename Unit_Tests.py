@@ -1,5 +1,5 @@
 import unittest
-from my_function import add_numbers
+from my_functions import add_numbers
 
 # define the unit tests
 class my_unit_tests(unittest.TestCase):
