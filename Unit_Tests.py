@@ -9,7 +9,7 @@ class my_unit_tests(unittest.TestCase):
         self.assertEqual(add_numbers(4,5,3),12)
 
         # test adding floats"
-        self.assertEqual(add_numbers(3,2,5),8)
+        self.assertEqual(add_numbers(3,2,5),10)
 
 # run the tests
 if __name__ == "__main__":
