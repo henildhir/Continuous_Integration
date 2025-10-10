@@ -11,7 +11,7 @@ def generate_data_graph(m, b, n_points=100, noise_std=1.0, csv_filename='data.cs
     df.to_csv(csv_filename, index=False)
     slope, intercept, r_value, p_value, std_err = linregress(x, y)
     plt.figure()
-    plt.scatter(x, y, label='Noisy data')
+    plt.scatter(x, y, label='Data')
     plt.plot(x, m * x + b, 'r--', label='Original line')
     plt.plot(x, slope * x + intercept, 'g-', label='Fitted line')
     plt.legend()
