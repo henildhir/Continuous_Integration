@@ -14,19 +14,13 @@ def plot_meat_vs_population():
     pop_df['Population in billions'] = pd.to_numeric(pop_df['Population in billions'], errors='coerce') / 1_000_000_000
 
     # Filter for World, years 1990-2013 in meat data
-    meat_df_filtered = meat_df[(meat_df['Entity'] == 'World') & 
-                               (meat_df['Year'] >= 1990) & 
-                               (meat_df['Year'] <= 2013)]
+    meat_df_filtered = meat_df[(meat_df['Entity'] == 'World') & (meat_df['Year'] >= 1961) & (meat_df['Year'] <= 1965)]
 
     # Calculate total meat consumption by summing key meat types
     meat_df_filtered['Total Meat'] = meat_df_filtered[['Beef and Buffalo', 'Pigmeat', 'Sheep and goat', 'Poultry']].sum(axis=1)
 
     # Filter population data similarly
-    pop_df_filtered = pop_df[(pop_df['Entity'] == 'World') & 
-                             (pop_df['Year'] >= 1990) & 
-                             (pop_df['Year'] <= 2013)]
-
-
+    pop_df_filtered = pop_df[(pop_df['Entity'] == 'World') &  (pop_df['Year'] >= 1961) &  (pop_df['Year'] <= 1965)]
 
     # Merge dataframes on Year
     merged_df = pd.merge(meat_df_filtered, pop_df_filtered[['Year', 'Population in billions']], on='Year')
