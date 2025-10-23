@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from functions.duration_calculator import days_left
+from Duration_calculator.duration_calculator import days_left
 
 class TestDaysLeft(unittest.TestCase):
 
