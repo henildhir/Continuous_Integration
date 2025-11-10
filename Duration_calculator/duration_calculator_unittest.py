@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from Duration_calculator.duration_calculator import days_left
+from duration_calculator import days_left
 
 class TestDaysLeft(unittest.TestCase):
 
@@ -23,7 +23,7 @@ class TestDaysLeft(unittest.TestCase):
     #this function will test whether the number of days remaining is positive. If it's negative, the test will fail
     def test_future_date(self):
         future_date = str(np.datetime64('today') + np.timedelta64(10, 'D'))
-        self.assertEqual(days_left(future_date).astype(int),-10)
+        self.assertEqual(days_left(future_date).astype(int),10)
 
 if __name__ == "__main__":
     unittest.main()
