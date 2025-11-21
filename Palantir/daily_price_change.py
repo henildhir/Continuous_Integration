@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+#Function to calculate the daily changes of stock price of Palantir
 def calculate_daily_changes(df, max_days=365, step=7):
     # palantir_df=pd.read_csv('Palantir/HistoricalData.csv')
     # palantir_df['Date']=pd.to_datetime(palantir_df['Date'])
