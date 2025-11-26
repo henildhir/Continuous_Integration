@@ -1,0 +1,199 @@
+Entity,Year,Period life expectancy at birth
+India,1950,41.1815
+India,1951,41.5954
+India,1952,42.0866
+India,1953,42.3863
+India,1954,43.2483
+India,1955,43.7399
+India,1956,44.133
+India,1957,44.4145
+India,1958,44.7776
+India,1959,45.2602
+India,1960,45.6104
+India,1961,45.8244
+India,1962,46.1335
+India,1963,46.4581
+India,1964,46.7418
+India,1965,45.5579
+India,1966,45.8839
+India,1967,46.1835
+India,1968,47.9249
+India,1969,48.2601
+India,1970,48.5852
+India,1971,48.9023
+India,1972,49.2126
+India,1973,49.6418
+India,1974,50.2589
+India,1975,50.7615
+India,1976,51.3019
+India,1977,51.8221
+India,1978,52.4204
+India,1979,53.0143
+India,1980,53.5928
+India,1981,54.1726
+India,1982,54.7354
+India,1983,55.2829
+India,1984,55.8125
+India,1985,56.3239
+India,1986,56.8193
+India,1987,57.2908
+India,1988,57.7443
+India,1989,58.1959
+India,1990,58.6184
+India,1991,59.0324
+India,1992,59.445
+India,1993,59.823
+India,1994,60.2372
+India,1995,60.6295
+India,1996,61.0269
+India,1997,61.4393
+India,1998,61.8525
+India,1999,62.2837
+India,2000,62.7492
+India,2001,63.1581
+India,2002,63.6486
+India,2003,64.0862
+India,2004,64.4843
+India,2005,64.9385
+India,2006,65.3726
+India,2007,65.8034
+India,2008,66.2471
+India,2009,66.7001
+India,2010,67.1616
+India,2011,67.6228
+India,2012,68.0763
+India,2013,68.499
+India,2014,68.9323
+India,2015,69.326
+Malawi,1950,32.6601
+Malawi,1951,32.8244
+Malawi,1952,32.9852
+Malawi,1953,33.164
+Malawi,1954,33.3479
+Malawi,1955,33.5805
+Malawi,1956,33.8494
+Malawi,1957,34.1069
+Malawi,1958,34.4411
+Malawi,1959,34.7611
+Malawi,1960,34.9862
+Malawi,1961,35.2295
+Malawi,1962,35.4491
+Malawi,1963,35.6426
+Malawi,1964,35.6806
+Malawi,1965,35.7401
+Malawi,1966,35.8305
+Malawi,1967,35.9406
+Malawi,1968,36.085
+Malawi,1969,36.3007
+Malawi,1970,36.638
+Malawi,1971,37.095
+Malawi,1972,37.6084
+Malawi,1973,38.355
+Malawi,1974,39.1965
+Malawi,1975,40.0794
+Malawi,1976,41.0223
+Malawi,1977,41.9789
+Malawi,1978,43.0025
+Malawi,1979,43.7031
+Malawi,1980,44.3308
+Malawi,1981,44.72
+Malawi,1982,44.8399
+Malawi,1983,44.974
+Malawi,1984,44.8067
+Malawi,1985,44.5678
+Malawi,1986,44.2977
+Malawi,1987,43.9024
+Malawi,1988,43.5694
+Malawi,1989,43.5152
+Malawi,1990,43.5748
+Malawi,1991,43.5397
+Malawi,1992,43.6363
+Malawi,1993,43.6485
+Malawi,1994,43.8
+Malawi,1995,43.8043
+Malawi,1996,44.0051
+Malawi,1997,44.1995
+Malawi,1998,44.2995
+Malawi,1999,45.06
+Malawi,2000,46.1698
+Malawi,2001,47.2049
+Malawi,2002,48.1757
+Malawi,2003,49.6013
+Malawi,2004,51.0731
+Malawi,2005,52.4693
+Malawi,2006,53.652
+Malawi,2007,54.6867
+Malawi,2008,55.7151
+Malawi,2009,56.7139
+Malawi,2010,57.787
+Malawi,2011,58.8589
+Malawi,2012,59.8695
+Malawi,2013,60.8158
+Malawi,2014,61.6507
+Malawi,2015,62.324
+United Kingdom,1950,68.631
+United Kingdom,1951,68.2386
+United Kingdom,1952,69.5267
+United Kingdom,1953,69.8047
+United Kingdom,1954,70.1715
+United Kingdom,1955,70.1344
+United Kingdom,1956,70.4055
+United Kingdom,1957,70.5245
+United Kingdom,1958,70.7048
+United Kingdom,1959,70.8276
+United Kingdom,1960,71.0251
+United Kingdom,1961,70.7895
+United Kingdom,1962,70.8576
+United Kingdom,1963,70.7609
+United Kingdom,1964,71.5407
+United Kingdom,1965,71.5157
+United Kingdom,1966,71.4329
+United Kingdom,1967,72.0706
+United Kingdom,1968,71.6842
+United Kingdom,1969,71.6625
+United Kingdom,1970,71.8819
+United Kingdom,1971,72.234
+United Kingdom,1972,71.9882
+United Kingdom,1973,72.1846
+United Kingdom,1974,72.376
+United Kingdom,1975,72.65
+United Kingdom,1976,72.6341
+United Kingdom,1977,73.1111
+United Kingdom,1978,73.0429
+United Kingdom,1979,73.1607
+United Kingdom,1980,73.5906
+United Kingdom,1981,73.9162
+United Kingdom,1982,74.0388
+United Kingdom,1983,74.2927
+United Kingdom,1984,74.6741
+United Kingdom,1985,74.5362
+United Kingdom,1986,74.7948
+United Kingdom,1987,75.147
+United Kingdom,1988,75.2593
+United Kingdom,1989,75.3971
+United Kingdom,1990,75.7377
+United Kingdom,1991,75.9108
+United Kingdom,1992,76.3074
+United Kingdom,1993,76.1602
+United Kingdom,1994,76.7198
+United Kingdom,1995,76.614
+United Kingdom,1996,76.8719
+United Kingdom,1997,77.1389
+United Kingdom,1998,77.2745
+United Kingdom,1999,77.3728
+United Kingdom,2000,77.8491
+United Kingdom,2001,78.1208
+United Kingdom,2002,78.237
+United Kingdom,2003,78.3302
+United Kingdom,2004,78.8998
+United Kingdom,2005,79.1061
+United Kingdom,2006,79.3474
+United Kingdom,2007,79.5337
+United Kingdom,2008,79.6554
+United Kingdom,2009,80.1556
+United Kingdom,2010,80.3908
+United Kingdom,2011,80.7961
+United Kingdom,2012,80.8594
+United Kingdom,2013,80.9232
+United Kingdom,2014,81.1529
+United Kingdom,2015,80.919
