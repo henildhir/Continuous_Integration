@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from duration_calculator import days_left
 
+#created class which will take in a date and output the remaining number of days left
 class TestDaysLeft(unittest.TestCase):
 
     def test_past_date(self):
