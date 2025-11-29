@@ -16,12 +16,12 @@ class TestDaysLeft(unittest.TestCase):
         #This will check whether both calculated days using the function are the same 
         self.assertEqual(actual_days,expected_days)
 
-    #this function will check whether the days left are 0 as it takes into account todays date only
+    #This function will check whether the days left are 0 as it takes into account todays date only
     def test_today_date(self):
         today_date = str(np.datetime64('today'))
         self.assertEqual(days_left(today_date).astype(int),0)
 
-    #this function will test whether the number of days remaining is positive. If it's negative, the test will fail
+    #This function will test whether the number of days remaining is positive. If it's negative, the test will fail
     def test_future_date(self):
         future_date = str(np.datetime64('today') + np.timedelta64(10, 'D'))
         self.assertEqual(days_left(future_date).astype(int),10)

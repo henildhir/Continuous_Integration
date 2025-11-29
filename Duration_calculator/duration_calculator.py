@@ -14,4 +14,4 @@ def days_left(user_input):
 
 #ask the user to input a date in YYYY-MM-DD format and print the number of days left
 user_input = input("Enter a date in format YYYY-MM-DD")
-print(f"Number of days left are {days_left(user_input)}")
+print(f"Number of days left are {days_left(user_input)}.")

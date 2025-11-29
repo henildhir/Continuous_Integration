@@ -21,7 +21,7 @@ This folder contains the **unit tests** and the underlying code for a duration c
 ### `days_left(user_input)`
 
 - **Input:**  
-  A date string in the format `YYYY-MM-DD`.
+  A date string must be inputted in the format `YYYY-MM-DD`.
 
 - **Output:**  
   Returns a `numpy.timedelta64` object representing the difference in days between the input date and today's date. Positive if in the future, zero if today, negative if in the past.
