@@ -78,5 +78,3 @@ This project provides a foundation for learning and applying linear regression c
 - Developing reliable data generation and testing workflows that can be extended to more complex models.
 
 The modular design facilitates future enhancements, such as adding polynomial regression, regularisation techniques, or expanding testing scenarios.
-
----
