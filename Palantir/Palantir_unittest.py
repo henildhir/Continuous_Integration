@@ -45,4 +45,4 @@ class TestDailyPriceChange(unittest.TestCase):
         self.assertGreater(len(n_values), 0, "Output arrays are empty, sorting may not have executed")
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main()
