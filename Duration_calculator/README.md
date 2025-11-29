@@ -44,14 +44,3 @@ The unit tests verify that the `days_left` function behaves as expected under va
    Ensures the function returns a positive difference when the date is in the future.
 
 The tests use Python's built-in `unittest` framework and the `numpy` library to validate outputs with assertions.
-
----
-
-## How to Run the Tests
-
-1. Ensure you have Python installed (preferably 3.6+).
-
-2. Install dependencies if needed (NumPy):
-
-   ```bash
-   pip install numpy

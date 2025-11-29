@@ -14,19 +14,5 @@ class TestUSElectionGraph(unittest.TestCase):
         self.assertIn('California', state_votes.index)
         self.assertGreater(state_votes.sum(),0)
 
-    #     # Check a reasonable range for sum of votes, or exact value if known
-    #     total_votes = state_votes.sum()
-    #     self.assertGreater(total_votes, 0)
-    #     self.assertLessEqual(total_votes, 1)  # Since fraction votes are fractions
-        
-    # def test_empty_candidate(self):
-    #     # Test with a candidate name not in data, expecting empty series
-
-    #     candidate_name = "nonexistent candidate"
-    #     state_votes = US_Election_Graph(candidate_name)
-
-    #     self.assertIsInstance(state_votes, pd.Series)
-    #     self.assertTrue(state_votes.empty)
-
 if __name__ == "__main__":
     unittest.main()
