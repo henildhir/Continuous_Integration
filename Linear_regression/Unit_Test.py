@@ -9,12 +9,12 @@ class TestGenerateDataGraph(unittest.TestCase):
     #The function will test for the slope and whether the gradient is equal to 2. In this case the grade may not be equal to 2 hence the test has failed
     def test_slope(self):
         slope, intercept = generate_data_graph(m=2.0, b=1.0, noise_std=0.1, n_points=100)
-        self.assertEqual(slope, 2.0, places=1)
+        self.assertAlmostEqual(slope, 2.0,places=2)
 
-    ##The function will test for the slope and whether the gradient is equal to 1. In this case the grade may be approximately equal to 1 hence the test has passed
+    #The function will test for the slope and whether the gradient is equal to 1. In this case the grade may be approximately equal to 1 hence the test has passed
     def test_intercept(self):
         slope, intercept = generate_data_graph(m=2.0, b=1.0, noise_std=0.1, n_points=100)
-        self.assertAlmostEqual(intercept, 1.0, places=1)
+        self.assertAlmostEqual(intercept, 1.0, places=1)  # relaxed from 2 to 1 decimal place
 
 if __name__ == "__main__":
     unittest.main()
