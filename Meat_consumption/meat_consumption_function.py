@@ -1,5 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+
+#This will save the graph in the directory stated below
+save_dir="Meat_Consumption"
+
+#This function will plot the consumption of meat against the total population of the world
 
 def plot_meat_vs_population():
     # Filenames are in the same folder as this script, so just use filenames directly
@@ -40,8 +46,10 @@ def plot_meat_vs_population():
     ax2.set_ylabel('Population (billions)', color='r')
     ax2.tick_params(axis='y', labelcolor='r')
 
+    # The graph will be saved with a title and within the correct folder in Meat Consumption
     plt.title('Global Meat Consumption vs Population (1990-2013)')
     fig.tight_layout()
+    plt.savefig(os.path.join(save_dir,"Meat_consumption_and_population "))
     plt.show()
 
 plot_meat_vs_population()
