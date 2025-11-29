@@ -30,7 +30,9 @@ def US_Election_Graph(candidate_name):
     plt.tight_layout()
     plt.show()
 
+    #Returns the function
     return state_votes
+
 
 print("Current working directory:", os.getcwd())
 candidate_name=input("Enter a candidate: ")

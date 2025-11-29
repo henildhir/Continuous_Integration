@@ -27,7 +27,7 @@ This folder contains scripts and data related to the analysis and visualization 
   - Contains expected states such as 'California',
   - Has a total sum greater than zero, ensuring meaningful data.
 
-## Usage
+## How to run the code
 
 1. Ensure the dataset `US-2016-Primary.csv` is in the `US_Election` folder.
 2. Run `US_Election_graph.py`. When prompted, enter a candidate’s name (case insensitive).
